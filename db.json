@@ -1,0 +1,1472 @@
+{
+  "subjects": [
+    {
+      "id": "56082172-0cdd-4026-a77c-fb293a7e1cd9",
+      "name": "Java",
+      "description": "Core Java learning",
+      "createdAt": "2026-10-20T10:00:00.000Z"
+    },
+    {
+      "id": "99ffe7b5-4181-4eae-8de0-2ba543ca0e17",
+      "name": "Mathematics",
+      "description": "Math revision",
+      "createdAt": "2026-10-20T10:00:00.000Z"
+    },
+    {
+      "id": "qnNxaEbcQKU",
+      "name": "test",
+      "description": "fsfs",
+      "createdAt": "2026-10-21T09:11:59.330Z"
+    },
+    {
+      "id": "lwT-NVVl7OI",
+      "name": "Geo",
+      "createdAt": "2026-10-21T09:18:43.470Z",
+      "description": "dsds"
+    },
+    {
+      "id": "vludpejN5NQ",
+      "name": "dsd",
+      "description": "dsds",
+      "createdAt": "2026-10-21T12:00:35.319Z"
+    },
+    {
+      "id": "iLkDdmLMxr8",
+      "name": "TEST1",
+      "createdAt": "2026-10-26T11:03:02.983Z"
+    },
+    {
+      "id": "C0NaCbZSS1M",
+      "name": "TEST2",
+      "description": "DESC",
+      "createdAt": "2026-10-26T11:03:14.114Z"
+    }
+  ],
+  "topics": [
+    {
+      "id": "329fc8ac-062a-411e-9562-ccca9de32093",
+      "subjectId": "56082172-0cdd-4026-a77c-fb293a7e1cd9",
+      "name": "OOP",
+      "createdAt": "2026-10-20T10:00:00.000Z"
+    },
+    {
+      "id": "30bd3c43-d3e4-4294-b0ee-71279abaa588",
+      "subjectId": "56082172-0cdd-4026-a77c-fb293a7e1cd9",
+      "name": "Collections",
+      "createdAt": "2026-10-20T10:00:00.000Z"
+    },
+    {
+      "id": "892a0746-90a6-43ba-80b2-234a113c96cd",
+      "subjectId": "99ffe7b5-4181-4eae-8de0-2ba543ca0e17",
+      "name": "Algebra",
+      "createdAt": "2026-10-20T10:00:00.000Z"
+    },
+    {
+      "id": "5UBrfpO8v6I",
+      "subjectId": "99ffe7b5-4181-4eae-8de0-2ba543ca0e17",
+      "name": "Probability",
+      "createdAt": "2026-10-22T09:05:25.590Z"
+    },
+    {
+      "id": "u08CZeNctwI",
+      "subjectId": "qnNxaEbcQKU",
+      "name": "test",
+      "createdAt": "2026-10-22T09:05:52.858Z"
+    },
+    {
+      "id": "GTgtJLOk_FM",
+      "subjectId": "lwT-NVVl7OI",
+      "name": "rrere",
+      "createdAt": "2026-10-22T09:06:02.263Z"
+    },
+    {
+      "id": "UJ-LNLJBqUw",
+      "subjectId": "iLkDdmLMxr8",
+      "name": "TOPIC1",
+      "createdAt": "2026-10-26T11:03:39.841Z"
+    },
+    {
+      "id": "SE5FKAEP7Wk",
+      "subjectId": "iLkDdmLMxr8",
+      "name": "TOPIC2",
+      "createdAt": "2026-10-26T11:03:48.707Z"
+    },
+    {
+      "id": "M1t_XsepOno",
+      "subjectId": "56082172-0cdd-4026-a77c-fb293a7e1cd9",
+      "name": "Probability",
+      "createdAt": "2026-10-26T14:24:34.185Z"
+    }
+  ],
+  "questions": [
+    {
+      "id": "056d87b4-637c-4122-9004-d668ddeea447",
+      "subjectId": "56082172-0cdd-4026-a77c-fb293a7e1cd9",
+      "topicIds": [
+        "329fc8ac-062a-411e-9562-ccca9de32093",
+        "30bd3c43-d3e4-4294-b0ee-71279abaa588"
+      ],
+      "type": "FLASHCARD",
+      "text": "What is an interface in Java?",
+      "description": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Describe what an interface is and "
+              },
+              {
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "bold"
+                  },
+                  {
+                    "type": "underline"
+                  }
+                ],
+                "text": "when it is useful."
+              }
+            ]
+          },
+          {
+            "type": "codeBlock",
+            "attrs": {
+              "language": null
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "interface Shape { void draw(); }"
+              }
+            ]
+          },
+          {
+            "type": "paragraph"
+          }
+        ]
+      },
+      "answer": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "sss"
+              }
+            ]
+          }
+        ]
+      },
+      "createdAt": "2026-10-20T10:00:00.000Z",
+      "updatedAt": "2026-10-29T10:55:03.190Z"
+    },
+    {
+      "id": "70c287ed-e9ca-46c7-97d9-d0da91525403",
+      "subjectId": "99ffe7b5-4181-4eae-8de0-2ba543ca0e17",
+      "topicIds": ["892a0746-90a6-43ba-80b2-234a113c96cd"],
+      "type": "FLASHCARD",
+      "text": "What is a linear equation?",
+      "description": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Define a linear equation and give a simple example."
+              }
+            ]
+          }
+        ]
+      },
+      "answer": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "A linear equation has variables only to the first power, such as 2x + 3 = 7."
+              }
+            ]
+          }
+        ]
+      },
+      "createdAt": "2026-10-22T09:15:00.000Z",
+      "updatedAt": "2026-10-22T09:15:00.000Z"
+    },
+    {
+      "id": "45fe4230-d028-41e1-9104-e7ed9784ff5e",
+      "subjectId": "99ffe7b5-4181-4eae-8de0-2ba543ca0e17",
+      "topicIds": ["892a0746-90a6-43ba-80b2-234a113c96cd", "5UBrfpO8v6I"],
+      "type": "FLASHCARD",
+      "text": "What is the expected value of a random variable?",
+      "description": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Explain the formula for a discrete random variable."
+              }
+            ]
+          }
+        ]
+      },
+      "answer": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Expected value is the sum of each possible value multiplied by its probability: E[X] = sum(x * P(X = x))."
+              }
+            ]
+          }
+        ]
+      },
+      "createdAt": "2026-10-22T09:15:00.000Z",
+      "updatedAt": "2026-10-22T09:15:00.000Z"
+    },
+    {
+      "id": "yFyAGwRhQBo",
+      "subjectId": "99ffe7b5-4181-4eae-8de0-2ba543ca0e17",
+      "topicIds": ["892a0746-90a6-43ba-80b2-234a113c96cd", "5UBrfpO8v6I"],
+      "type": "FLASHCARD",
+      "text": "What is encapsulation in Java?",
+      "description": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Explain how private fields and public methods work.ddsd"
+              }
+            ]
+          }
+        ]
+      },
+      "answer": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Encapsulation is the practice of bundling data and methods tsdsdsogether while restricting direct access to internal data."
+              }
+            ]
+          }
+        ]
+      },
+      "createdAt": "Mon Oct 26 2026 10:08:17 GMT+0100 (Central European Standard Time)",
+      "updatedAt": "2026-10-26T09:30:35.963Z"
+    },
+    {
+      "id": "UwikDuxbzh8",
+      "subjectId": "iLkDdmLMxr8",
+      "topicIds": ["UJ-LNLJBqUw", "SE5FKAEP7Wk"],
+      "type": "FLASHCARD",
+      "text": "Question Test",
+      "description": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "heading",
+            "attrs": {
+              "level": 2
+            },
+            "content": [
+              {
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "bold"
+                  }
+                ],
+                "text": "Explain the differences between ArrayList and LinkedList in Java."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Consider the following:"
+              }
+            ]
+          },
+          {
+            "type": "bulletList",
+            "content": [
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "How elements are stored."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Which is better for accessing elements by index."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "The performance of adding and removing elements."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Example code:"
+              }
+            ]
+          },
+          {
+            "type": "codeBlock",
+            "attrs": {
+              "language": null
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "List<String> names = new ArrayList<>();\nnames.add(\"Java\");\nnames.add(\"React\");"
+              }
+            ]
+          },
+          {
+            "type": "paragraph"
+          },
+          {
+            "type": "image",
+            "attrs": {
+              "src": "https://code.visualstudio.com/docs/java/java-tutorial",
+              "alt": "Study image",
+              "title": null,
+              "width": null,
+              "height": null
+            }
+          },
+          {
+            "type": "paragraph"
+          }
+        ]
+      },
+      "answer": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "heading",
+            "attrs": {
+              "level": 2
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "ArrayList vs LinkedList"
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "attrs": {
+              "level": 2
+            },
+            "content": [
+              {
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "bold"
+                  }
+                ],
+                "text": "ArrayList uses a resizable array internally, while LinkedList uses a doubly linked list."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Main differences:"
+              }
+            ]
+          },
+          {
+            "type": "orderedList",
+            "attrs": {
+              "start": 1,
+              "type": null
+            },
+            "content": [
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Access: ArrayList provides fast indexed access, while LinkedList requires traversal."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Insertion: LinkedList can insert or remove elements efficiently when the position is already known, but finding that position takes time."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Memory: LinkedList generally uses more memory because it stores node references."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Example:"
+              }
+            ]
+          },
+          {
+            "type": "codeBlock",
+            "attrs": {
+              "language": null
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "List<Integer> numbers = new ArrayList<>();\nnumbers.add(10);\nnumbers.add(20);\n\nSystem.out.println(numbers.get(0)); // 10"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "bold"
+                  }
+                ],
+                "text": "Conclusion"
+              },
+              {
+                "type": "text",
+                "text": ": ArrayList is usually the better default choice unless your use case specifically benefits from LinkedList."
+              }
+            ]
+          }
+        ]
+      },
+      "createdAt": "Mon Oct 26 2026 12:07:49 GMT+0100 (Central European Standard Time)",
+      "updatedAt": "2026-10-26T11:10:18.762Z"
+    },
+    {
+      "id": "Da2wwQXx1oU",
+      "subjectId": "56082172-0cdd-4026-a77c-fb293a7e1cd9",
+      "topicIds": [
+        "329fc8ac-062a-411e-9562-ccca9de32093",
+        "30bd3c43-d3e4-4294-b0ee-71279abaa588",
+        "M1t_XsepOno"
+      ],
+      "type": "FLASHCARD",
+      "text": "What is encapsulation in Java?",
+      "description": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "12313"
+              },
+              {
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "bold"
+                  }
+                ],
+                "text": "23"
+              }
+            ]
+          }
+        ]
+      },
+      "answer": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "orderedList",
+            "attrs": {
+              "start": 1,
+              "type": null
+            },
+            "content": [
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "defe"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "fefe"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "feff"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph"
+          }
+        ]
+      },
+      "createdAt": "Mon Oct 26 2026 15:25:29 GMT+0100 (Central European Standard Time)",
+      "updatedAt": "Mon Oct 26 2026 15:25:29 GMT+0100 (Central European Standard Time)"
+    },
+    {
+      "text": "Question Testc",
+      "subjectId": "99ffe7b5-4181-4eae-8de0-2ba543ca0e17",
+      "topicIds": ["892a0746-90a6-43ba-80b2-234a113c96cd"],
+      "description": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "dss"
+              }
+            ]
+          }
+        ]
+      },
+      "type": "SINGLE_CHOICE",
+      "options": [
+        {
+          "id": "3ea55cec-4533-4e2a-8f0e-494946ebb7aa",
+          "text": "sdsdcxcxcccccc",
+          "isCorrect": true,
+          "points": 5
+        },
+        {
+          "id": "3aa1a514-b078-4ba7-b826-13753a362bc4",
+          "text": "sdsds",
+          "isCorrect": false,
+          "points": -2
+        },
+        {
+          "id": "0dae6a71-b850-4ff0-9fb3-b20bf9502c85",
+          "text": "ffefefe",
+          "isCorrect": false,
+          "points": -2
+        }
+      ],
+      "id": "o1bbEj_TMKo",
+      "createdAt": "2026-10-28T12:41:35.391Z",
+      "updatedAt": "2026-10-28T12:43:49.012Z"
+    },
+    {
+      "text": "Question Test",
+      "subjectId": "56082172-0cdd-4026-a77c-fb293a7e1cd9",
+      "topicIds": ["329fc8ac-062a-411e-9562-ccca9de32093", "M1t_XsepOno"],
+      "description": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "cxcx"
+              }
+            ]
+          }
+        ]
+      },
+      "type": "MULTIPLE_CHOICE",
+      "options": [
+        {
+          "id": "6da7bc86-934e-4620-a2ee-2222f56d0918",
+          "text": "egge",
+          "isCorrect": true,
+          "points": 5
+        },
+        {
+          "id": "b5a4d49a-c456-4ed8-b945-6ce54bcd5f5b",
+          "text": "sdsds",
+          "isCorrect": true,
+          "points": 5
+        },
+        {
+          "id": "3b515e18-4a6f-4735-ad98-55547b4e72a2",
+          "text": "vdvdvdv",
+          "isCorrect": false,
+          "points": -5
+        }
+      ],
+      "id": "HSYelKNWm4Q",
+      "createdAt": "2026-10-28T12:44:30.262Z",
+      "updatedAt": "2026-10-28T12:44:30.262Z"
+    },
+    {
+      "text": "Question Test",
+      "subjectId": "56082172-0cdd-4026-a77c-fb293a7e1cd9",
+      "topicIds": ["329fc8ac-062a-411e-9562-ccca9de32093"],
+      "description": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "fsf"
+              }
+            ]
+          }
+        ]
+      },
+      "type": "MULTIPLE_CHOICE",
+      "options": [
+        {
+          "id": "3883b194-3613-44d4-88a1-0adc1790ffeb",
+          "text": "csfsf",
+          "isCorrect": true,
+          "points": 5
+        },
+        {
+          "id": "882b34cf-9116-442b-bd04-26631a35c2fb",
+          "text": "fsfs",
+          "isCorrect": true,
+          "points": 5
+        },
+        {
+          "id": "5c8f3f8d-e305-48e6-9721-647192f0904d",
+          "text": "fsfsx",
+          "isCorrect": false,
+          "points": -2
+        }
+      ],
+      "id": "QtOv1ujVPsE",
+      "createdAt": "2026-10-28T12:57:16.387Z",
+      "updatedAt": "2026-10-28T12:57:16.387Z"
+    },
+    {
+      "text": "Question Test111",
+      "subjectId": "99ffe7b5-4181-4eae-8de0-2ba543ca0e17",
+      "topicIds": ["892a0746-90a6-43ba-80b2-234a113c96cd", "5UBrfpO8v6I"],
+      "description": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "fff"
+              }
+            ]
+          }
+        ]
+      },
+      "type": "SHORT_ANSWER",
+      "acceptedAnswers": ["eee", "www", "ddd"],
+      "caseSensitive": false,
+      "correctPoints": 5,
+      "incorrectPoints": -2,
+      "id": "KOCKP9LwBOk",
+      "createdAt": "2026-10-29T09:53:46.045Z",
+      "updatedAt": "2026-10-29T09:54:38.367Z"
+    },
+    {
+      "text": "Question Test242",
+      "subjectId": "56082172-0cdd-4026-a77c-fb293a7e1cd9",
+      "topicIds": ["329fc8ac-062a-411e-9562-ccca9de32093"],
+      "description": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "424"
+              }
+            ]
+          }
+        ]
+      },
+      "type": "FLASHCARD",
+      "answer": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "242555"
+              }
+            ]
+          }
+        ]
+      },
+      "id": "l4iTn7rGMvY",
+      "createdAt": "2026-10-29T10:55:54.398Z",
+      "updatedAt": "2026-10-29T11:04:50.259Z"
+    }
+  ],
+  "practiceSessions": [
+    {
+      "id": "jVp9A-Uj-lI",
+      "subjectId": "56082172-0cdd-4026-a77c-fb293a7e1cd9",
+      "selectedTopicIds": ["329fc8ac-062a-411e-9562-ccca9de32093"],
+      "questionIds": [
+        "056d87b4-637c-4122-9004-d668ddeea447",
+        "Da2wwQXx1oU",
+        "l4iTn7rGMvY"
+      ],
+      "status": "COMPLETED",
+      "startedAt": "2026-11-03T11:12:50.009Z",
+      "completedAt": "2026-11-03T11:13:11.405Z"
+    },
+    {
+      "id": "RHY6LdO80TA",
+      "subjectId": "56082172-0cdd-4026-a77c-fb293a7e1cd9",
+      "selectedTopicIds": ["329fc8ac-062a-411e-9562-ccca9de32093"],
+      "questionIds": [
+        "l4iTn7rGMvY",
+        "056d87b4-637c-4122-9004-d668ddeea447",
+        "Da2wwQXx1oU"
+      ],
+      "status": "COMPLETED",
+      "startedAt": "2026-11-03T11:13:20.571Z",
+      "completedAt": "2026-11-03T11:13:31.363Z"
+    },
+    {
+      "id": "_AgEF9Vlyfs",
+      "subjectId": "56082172-0cdd-4026-a77c-fb293a7e1cd9",
+      "selectedTopicIds": [],
+      "questionIds": [
+        "Da2wwQXx1oU",
+        "l4iTn7rGMvY",
+        "056d87b4-637c-4122-9004-d668ddeea447"
+      ],
+      "status": "COMPLETED",
+      "startedAt": "2026-11-03T11:13:50.026Z",
+      "completedAt": "2026-11-03T11:13:57.033Z"
+    },
+    {
+      "id": "9NJoSTRPkPw",
+      "subjectId": "56082172-0cdd-4026-a77c-fb293a7e1cd9",
+      "selectedTopicIds": [],
+      "questionIds": [
+        "Da2wwQXx1oU",
+        "056d87b4-637c-4122-9004-d668ddeea447",
+        "l4iTn7rGMvY"
+      ],
+      "status": "COMPLETED",
+      "startedAt": "2026-11-03T11:14:01.977Z",
+      "completedAt": "2026-11-03T11:14:08.611Z"
+    },
+    {
+      "id": "rkJlMP_0jeM",
+      "subjectId": "56082172-0cdd-4026-a77c-fb293a7e1cd9",
+      "selectedTopicIds": [],
+      "questionIds": [
+        "l4iTn7rGMvY",
+        "Da2wwQXx1oU",
+        "056d87b4-637c-4122-9004-d668ddeea447"
+      ],
+      "status": "COMPLETED",
+      "startedAt": "2026-11-03T11:14:10.220Z",
+      "completedAt": "2026-11-03T11:14:28.229Z"
+    },
+    {
+      "id": "CSB30ggF7Pk",
+      "subjectId": "56082172-0cdd-4026-a77c-fb293a7e1cd9",
+      "selectedTopicIds": [],
+      "questionIds": [
+        "l4iTn7rGMvY",
+        "Da2wwQXx1oU",
+        "056d87b4-637c-4122-9004-d668ddeea447"
+      ],
+      "status": "IN_PROGRESS",
+      "startedAt": "2026-11-03T11:14:50.495Z",
+      "completedAt": null
+    },
+    {
+      "id": "ikyw60ZwEoo",
+      "subjectId": "56082172-0cdd-4026-a77c-fb293a7e1cd9",
+      "selectedTopicIds": [
+        "329fc8ac-062a-411e-9562-ccca9de32093",
+        "M1t_XsepOno",
+        "30bd3c43-d3e4-4294-b0ee-71279abaa588"
+      ],
+      "questionIds": [
+        "056d87b4-637c-4122-9004-d668ddeea447",
+        "l4iTn7rGMvY",
+        "Da2wwQXx1oU"
+      ],
+      "status": "IN_PROGRESS",
+      "startedAt": "2026-11-03T11:15:05.762Z",
+      "completedAt": null
+    },
+    {
+      "id": "q6nmDK6vWTo",
+      "subjectId": "99ffe7b5-4181-4eae-8de0-2ba543ca0e17",
+      "selectedTopicIds": [],
+      "questionIds": [
+        "45fe4230-d028-41e1-9104-e7ed9784ff5e",
+        "yFyAGwRhQBo",
+        "70c287ed-e9ca-46c7-97d9-d0da91525403"
+      ],
+      "status": "IN_PROGRESS",
+      "startedAt": "2026-11-03T13:04:02.545Z",
+      "completedAt": null
+    },
+    {
+      "id": "CDCt98WDvXQ",
+      "subjectId": "99ffe7b5-4181-4eae-8de0-2ba543ca0e17",
+      "selectedTopicIds": [],
+      "questionIds": [
+        "yFyAGwRhQBo",
+        "70c287ed-e9ca-46c7-97d9-d0da91525403",
+        "45fe4230-d028-41e1-9104-e7ed9784ff5e"
+      ],
+      "status": "IN_PROGRESS",
+      "startedAt": "2026-11-03T13:04:10.532Z",
+      "completedAt": null
+    },
+    {
+      "id": "Ob08NMqU15s",
+      "subjectId": "99ffe7b5-4181-4eae-8de0-2ba543ca0e17",
+      "selectedTopicIds": [],
+      "questionIds": [
+        "yFyAGwRhQBo",
+        "45fe4230-d028-41e1-9104-e7ed9784ff5e",
+        "70c287ed-e9ca-46c7-97d9-d0da91525403"
+      ],
+      "status": "COMPLETED",
+      "startedAt": "2026-11-03T13:04:29.861Z",
+      "completedAt": "2026-11-03T13:04:37.029Z"
+    },
+    {
+      "id": "n56NL8IoBXw",
+      "subjectId": "56082172-0cdd-4026-a77c-fb293a7e1cd9",
+      "selectedTopicIds": [
+        "329fc8ac-062a-411e-9562-ccca9de32093",
+        "30bd3c43-d3e4-4294-b0ee-71279abaa588",
+        "M1t_XsepOno"
+      ],
+      "questionIds": [
+        "l4iTn7rGMvY",
+        "Da2wwQXx1oU",
+        "056d87b4-637c-4122-9004-d668ddeea447"
+      ],
+      "status": "COMPLETED",
+      "startedAt": "2026-11-03T13:35:54.439Z",
+      "completedAt": "2026-11-03T13:36:11.911Z"
+    },
+    {
+      "id": "eM7UVIy1qNo",
+      "subjectId": "99ffe7b5-4181-4eae-8de0-2ba543ca0e17",
+      "selectedTopicIds": [
+        "892a0746-90a6-43ba-80b2-234a113c96cd",
+        "5UBrfpO8v6I"
+      ],
+      "questionIds": [
+        "yFyAGwRhQBo",
+        "45fe4230-d028-41e1-9104-e7ed9784ff5e",
+        "70c287ed-e9ca-46c7-97d9-d0da91525403"
+      ],
+      "status": "COMPLETED",
+      "startedAt": "2026-11-03T15:09:55.797Z",
+      "completedAt": "2026-11-03T15:10:26.226Z"
+    },
+    {
+      "id": "lAViUP8UvAA",
+      "subjectId": "56082172-0cdd-4026-a77c-fb293a7e1cd9",
+      "selectedTopicIds": [],
+      "questionIds": [
+        "l4iTn7rGMvY",
+        "056d87b4-637c-4122-9004-d668ddeea447",
+        "Da2wwQXx1oU"
+      ],
+      "status": "COMPLETED",
+      "startedAt": "2026-11-03T15:19:35.063Z",
+      "completedAt": "2026-11-03T15:23:03.762Z"
+    },
+    {
+      "id": "86axqCTKlRQ",
+      "subjectId": "56082172-0cdd-4026-a77c-fb293a7e1cd9",
+      "selectedTopicIds": [],
+      "questionIds": [
+        "056d87b4-637c-4122-9004-d668ddeea447",
+        "l4iTn7rGMvY",
+        "Da2wwQXx1oU"
+      ],
+      "status": "IN_PROGRESS",
+      "startedAt": "2026-11-03T15:27:00.021Z",
+      "completedAt": null
+    },
+    {
+      "id": "LUTULiESGGU",
+      "subjectId": "56082172-0cdd-4026-a77c-fb293a7e1cd9",
+      "selectedTopicIds": [],
+      "questionIds": [
+        "Da2wwQXx1oU",
+        "056d87b4-637c-4122-9004-d668ddeea447",
+        "l4iTn7rGMvY"
+      ],
+      "status": "COMPLETED",
+      "startedAt": "2026-11-04T10:07:13.682Z",
+      "completedAt": "2026-11-04T10:07:26.972Z"
+    },
+    {
+      "id": "VZyHiNvtV68",
+      "subjectId": "99ffe7b5-4181-4eae-8de0-2ba543ca0e17",
+      "selectedTopicIds": [],
+      "questionIds": [
+        "70c287ed-e9ca-46c7-97d9-d0da91525403",
+        "45fe4230-d028-41e1-9104-e7ed9784ff5e",
+        "yFyAGwRhQBo"
+      ],
+      "status": "IN_PROGRESS",
+      "startedAt": "2026-11-04T10:07:50.115Z",
+      "completedAt": null
+    },
+    {
+      "id": "ZPdkxvNg7ZA",
+      "subjectId": "56082172-0cdd-4026-a77c-fb293a7e1cd9",
+      "selectedTopicIds": [],
+      "questionIds": [
+        "056d87b4-637c-4122-9004-d668ddeea447",
+        "Da2wwQXx1oU",
+        "l4iTn7rGMvY"
+      ],
+      "status": "COMPLETED",
+      "startedAt": "2026-11-04T10:28:20.508Z",
+      "completedAt": "2026-11-04T10:28:29.582Z"
+    }
+  ],
+  "flashcardReviews": [
+    {
+      "id": "5UMrTYBCuYo",
+      "sessionId": "jVp9A-Uj-lI",
+      "questionId": "056d87b4-637c-4122-9004-d668ddeea447",
+      "subjectId": "56082172-0cdd-4026-a77c-fb293a7e1cd9",
+      "topicIds": [
+        "329fc8ac-062a-411e-9562-ccca9de32093",
+        "30bd3c43-d3e4-4294-b0ee-71279abaa588"
+      ],
+      "result": "REMEMBERED",
+      "reviewedAt": "2026-11-03T11:13:02.538Z"
+    },
+    {
+      "id": "C_Lp2DyCKLg",
+      "sessionId": "jVp9A-Uj-lI",
+      "questionId": "Da2wwQXx1oU",
+      "subjectId": "56082172-0cdd-4026-a77c-fb293a7e1cd9",
+      "topicIds": [
+        "329fc8ac-062a-411e-9562-ccca9de32093",
+        "30bd3c43-d3e4-4294-b0ee-71279abaa588",
+        "M1t_XsepOno"
+      ],
+      "result": "FORGOT",
+      "reviewedAt": "2026-11-03T11:13:09.138Z"
+    },
+    {
+      "id": "-1fHXTZoIP8",
+      "sessionId": "jVp9A-Uj-lI",
+      "questionId": "l4iTn7rGMvY",
+      "subjectId": "56082172-0cdd-4026-a77c-fb293a7e1cd9",
+      "topicIds": ["329fc8ac-062a-411e-9562-ccca9de32093"],
+      "result": "REMEMBERED",
+      "reviewedAt": "2026-11-03T11:13:11.376Z"
+    },
+    {
+      "id": "DE8_x2CMaEc",
+      "sessionId": "RHY6LdO80TA",
+      "questionId": "l4iTn7rGMvY",
+      "subjectId": "56082172-0cdd-4026-a77c-fb293a7e1cd9",
+      "topicIds": ["329fc8ac-062a-411e-9562-ccca9de32093"],
+      "result": "REMEMBERED",
+      "reviewedAt": "2026-11-03T11:13:24.481Z"
+    },
+    {
+      "id": "iPfQ2TtGMD4",
+      "sessionId": "RHY6LdO80TA",
+      "questionId": "056d87b4-637c-4122-9004-d668ddeea447",
+      "subjectId": "56082172-0cdd-4026-a77c-fb293a7e1cd9",
+      "topicIds": [
+        "329fc8ac-062a-411e-9562-ccca9de32093",
+        "30bd3c43-d3e4-4294-b0ee-71279abaa588"
+      ],
+      "result": "REMEMBERED",
+      "reviewedAt": "2026-11-03T11:13:29.576Z"
+    },
+    {
+      "id": "v-UaLdZuSGI",
+      "sessionId": "RHY6LdO80TA",
+      "questionId": "Da2wwQXx1oU",
+      "subjectId": "56082172-0cdd-4026-a77c-fb293a7e1cd9",
+      "topicIds": [
+        "329fc8ac-062a-411e-9562-ccca9de32093",
+        "30bd3c43-d3e4-4294-b0ee-71279abaa588",
+        "M1t_XsepOno"
+      ],
+      "result": "REMEMBERED",
+      "reviewedAt": "2026-11-03T11:13:31.334Z"
+    },
+    {
+      "id": "r2T4lkgkETg",
+      "sessionId": "_AgEF9Vlyfs",
+      "questionId": "Da2wwQXx1oU",
+      "subjectId": "56082172-0cdd-4026-a77c-fb293a7e1cd9",
+      "topicIds": [
+        "329fc8ac-062a-411e-9562-ccca9de32093",
+        "30bd3c43-d3e4-4294-b0ee-71279abaa588",
+        "M1t_XsepOno"
+      ],
+      "result": "REMEMBERED",
+      "reviewedAt": "2026-11-03T11:13:53.097Z"
+    },
+    {
+      "id": "FyGpF5HmsBQ",
+      "sessionId": "_AgEF9Vlyfs",
+      "questionId": "l4iTn7rGMvY",
+      "subjectId": "56082172-0cdd-4026-a77c-fb293a7e1cd9",
+      "topicIds": ["329fc8ac-062a-411e-9562-ccca9de32093"],
+      "result": "REMEMBERED",
+      "reviewedAt": "2026-11-03T11:13:54.871Z"
+    },
+    {
+      "id": "lvfboY8zI2c",
+      "sessionId": "_AgEF9Vlyfs",
+      "questionId": "056d87b4-637c-4122-9004-d668ddeea447",
+      "subjectId": "56082172-0cdd-4026-a77c-fb293a7e1cd9",
+      "topicIds": [
+        "329fc8ac-062a-411e-9562-ccca9de32093",
+        "30bd3c43-d3e4-4294-b0ee-71279abaa588"
+      ],
+      "result": "REMEMBERED",
+      "reviewedAt": "2026-11-03T11:13:57.004Z"
+    },
+    {
+      "id": "u7t99uDRh_k",
+      "sessionId": "9NJoSTRPkPw",
+      "questionId": "Da2wwQXx1oU",
+      "subjectId": "56082172-0cdd-4026-a77c-fb293a7e1cd9",
+      "topicIds": [
+        "329fc8ac-062a-411e-9562-ccca9de32093",
+        "30bd3c43-d3e4-4294-b0ee-71279abaa588",
+        "M1t_XsepOno"
+      ],
+      "result": "REMEMBERED",
+      "reviewedAt": "2026-11-03T11:14:05.030Z"
+    },
+    {
+      "id": "0xBHNzk7Ckg",
+      "sessionId": "9NJoSTRPkPw",
+      "questionId": "056d87b4-637c-4122-9004-d668ddeea447",
+      "subjectId": "56082172-0cdd-4026-a77c-fb293a7e1cd9",
+      "topicIds": [
+        "329fc8ac-062a-411e-9562-ccca9de32093",
+        "30bd3c43-d3e4-4294-b0ee-71279abaa588"
+      ],
+      "result": "REMEMBERED",
+      "reviewedAt": "2026-11-03T11:14:06.745Z"
+    },
+    {
+      "id": "LXUm-JtERZA",
+      "sessionId": "9NJoSTRPkPw",
+      "questionId": "l4iTn7rGMvY",
+      "subjectId": "56082172-0cdd-4026-a77c-fb293a7e1cd9",
+      "topicIds": ["329fc8ac-062a-411e-9562-ccca9de32093"],
+      "result": "REMEMBERED",
+      "reviewedAt": "2026-11-03T11:14:08.547Z"
+    },
+    {
+      "id": "OduXA_-lpK0",
+      "sessionId": "rkJlMP_0jeM",
+      "questionId": "l4iTn7rGMvY",
+      "subjectId": "56082172-0cdd-4026-a77c-fb293a7e1cd9",
+      "topicIds": ["329fc8ac-062a-411e-9562-ccca9de32093"],
+      "result": "REMEMBERED",
+      "reviewedAt": "2026-11-03T11:14:17.965Z"
+    },
+    {
+      "id": "V21k92hiAI8",
+      "sessionId": "rkJlMP_0jeM",
+      "questionId": "Da2wwQXx1oU",
+      "subjectId": "56082172-0cdd-4026-a77c-fb293a7e1cd9",
+      "topicIds": [
+        "329fc8ac-062a-411e-9562-ccca9de32093",
+        "30bd3c43-d3e4-4294-b0ee-71279abaa588",
+        "M1t_XsepOno"
+      ],
+      "result": "FORGOT",
+      "reviewedAt": "2026-11-03T11:14:25.052Z"
+    },
+    {
+      "id": "CHvKbVARLqU",
+      "sessionId": "rkJlMP_0jeM",
+      "questionId": "056d87b4-637c-4122-9004-d668ddeea447",
+      "subjectId": "56082172-0cdd-4026-a77c-fb293a7e1cd9",
+      "topicIds": [
+        "329fc8ac-062a-411e-9562-ccca9de32093",
+        "30bd3c43-d3e4-4294-b0ee-71279abaa588"
+      ],
+      "result": "REMEMBERED",
+      "reviewedAt": "2026-11-03T11:14:28.157Z"
+    },
+    {
+      "id": "jHaqOL9hcAU",
+      "sessionId": "ikyw60ZwEoo",
+      "questionId": "056d87b4-637c-4122-9004-d668ddeea447",
+      "subjectId": "56082172-0cdd-4026-a77c-fb293a7e1cd9",
+      "topicIds": [
+        "329fc8ac-062a-411e-9562-ccca9de32093",
+        "30bd3c43-d3e4-4294-b0ee-71279abaa588"
+      ],
+      "result": "REMEMBERED",
+      "reviewedAt": "2026-11-03T11:15:10.144Z"
+    },
+    {
+      "id": "O300OGEEtZ0",
+      "sessionId": "ikyw60ZwEoo",
+      "questionId": "l4iTn7rGMvY",
+      "subjectId": "56082172-0cdd-4026-a77c-fb293a7e1cd9",
+      "topicIds": ["329fc8ac-062a-411e-9562-ccca9de32093"],
+      "result": "REMEMBERED",
+      "reviewedAt": "2026-11-03T11:15:12.749Z"
+    },
+    {
+      "id": "rxb-CGd6F5M",
+      "sessionId": "Ob08NMqU15s",
+      "questionId": "yFyAGwRhQBo",
+      "subjectId": "99ffe7b5-4181-4eae-8de0-2ba543ca0e17",
+      "topicIds": ["892a0746-90a6-43ba-80b2-234a113c96cd", "5UBrfpO8v6I"],
+      "result": "REMEMBERED",
+      "reviewedAt": "2026-11-03T13:04:32.977Z"
+    },
+    {
+      "id": "u-JodYJfW3M",
+      "sessionId": "Ob08NMqU15s",
+      "questionId": "45fe4230-d028-41e1-9104-e7ed9784ff5e",
+      "subjectId": "99ffe7b5-4181-4eae-8de0-2ba543ca0e17",
+      "topicIds": ["892a0746-90a6-43ba-80b2-234a113c96cd", "5UBrfpO8v6I"],
+      "result": "REMEMBERED",
+      "reviewedAt": "2026-11-03T13:04:35.037Z"
+    },
+    {
+      "id": "NyOeT0fjFkM",
+      "sessionId": "Ob08NMqU15s",
+      "questionId": "70c287ed-e9ca-46c7-97d9-d0da91525403",
+      "subjectId": "99ffe7b5-4181-4eae-8de0-2ba543ca0e17",
+      "topicIds": ["892a0746-90a6-43ba-80b2-234a113c96cd"],
+      "result": "REMEMBERED",
+      "reviewedAt": "2026-11-03T13:04:36.977Z"
+    },
+    {
+      "id": "w-daJ_uWGcU",
+      "sessionId": "n56NL8IoBXw",
+      "questionId": "l4iTn7rGMvY",
+      "subjectId": "56082172-0cdd-4026-a77c-fb293a7e1cd9",
+      "topicIds": ["329fc8ac-062a-411e-9562-ccca9de32093"],
+      "result": "REMEMBERED",
+      "reviewedAt": "2026-11-03T13:36:06.850Z"
+    },
+    {
+      "id": "L6tsdtyaztI",
+      "sessionId": "n56NL8IoBXw",
+      "questionId": "Da2wwQXx1oU",
+      "subjectId": "56082172-0cdd-4026-a77c-fb293a7e1cd9",
+      "topicIds": [
+        "329fc8ac-062a-411e-9562-ccca9de32093",
+        "30bd3c43-d3e4-4294-b0ee-71279abaa588",
+        "M1t_XsepOno"
+      ],
+      "result": "REMEMBERED",
+      "reviewedAt": "2026-11-03T13:36:09.897Z"
+    },
+    {
+      "id": "qGQjIoF4C94",
+      "sessionId": "n56NL8IoBXw",
+      "questionId": "056d87b4-637c-4122-9004-d668ddeea447",
+      "subjectId": "56082172-0cdd-4026-a77c-fb293a7e1cd9",
+      "topicIds": [
+        "329fc8ac-062a-411e-9562-ccca9de32093",
+        "30bd3c43-d3e4-4294-b0ee-71279abaa588"
+      ],
+      "result": "REMEMBERED",
+      "reviewedAt": "2026-11-03T13:36:11.861Z"
+    },
+    {
+      "id": "dJgcVgmrv-g",
+      "sessionId": "eM7UVIy1qNo",
+      "questionId": "yFyAGwRhQBo",
+      "subjectId": "99ffe7b5-4181-4eae-8de0-2ba543ca0e17",
+      "topicIds": ["892a0746-90a6-43ba-80b2-234a113c96cd", "5UBrfpO8v6I"],
+      "result": "REMEMBERED",
+      "reviewedAt": "2026-11-03T15:10:06.829Z"
+    },
+    {
+      "id": "g07NYIJy8y0",
+      "sessionId": "eM7UVIy1qNo",
+      "questionId": "45fe4230-d028-41e1-9104-e7ed9784ff5e",
+      "subjectId": "99ffe7b5-4181-4eae-8de0-2ba543ca0e17",
+      "topicIds": ["892a0746-90a6-43ba-80b2-234a113c96cd", "5UBrfpO8v6I"],
+      "result": "FORGOT",
+      "reviewedAt": "2026-11-03T15:10:19.563Z"
+    },
+    {
+      "id": "GlY0u2tfIn4",
+      "sessionId": "eM7UVIy1qNo",
+      "questionId": "70c287ed-e9ca-46c7-97d9-d0da91525403",
+      "subjectId": "99ffe7b5-4181-4eae-8de0-2ba543ca0e17",
+      "topicIds": ["892a0746-90a6-43ba-80b2-234a113c96cd"],
+      "result": "REMEMBERED",
+      "reviewedAt": "2026-11-03T15:10:26.170Z"
+    },
+    {
+      "id": "gkKKjCBSeZc",
+      "sessionId": "lAViUP8UvAA",
+      "questionId": "l4iTn7rGMvY",
+      "subjectId": "56082172-0cdd-4026-a77c-fb293a7e1cd9",
+      "topicIds": ["329fc8ac-062a-411e-9562-ccca9de32093"],
+      "result": "FORGOT",
+      "reviewedAt": "2026-11-03T15:21:56.774Z"
+    },
+    {
+      "id": "OqetFz1VcsA",
+      "sessionId": "lAViUP8UvAA",
+      "questionId": "056d87b4-637c-4122-9004-d668ddeea447",
+      "subjectId": "56082172-0cdd-4026-a77c-fb293a7e1cd9",
+      "topicIds": [
+        "329fc8ac-062a-411e-9562-ccca9de32093",
+        "30bd3c43-d3e4-4294-b0ee-71279abaa588"
+      ],
+      "result": "FORGOT",
+      "reviewedAt": "2026-11-03T15:23:00.978Z"
+    },
+    {
+      "id": "-v46ksYv9w4",
+      "sessionId": "lAViUP8UvAA",
+      "questionId": "Da2wwQXx1oU",
+      "subjectId": "56082172-0cdd-4026-a77c-fb293a7e1cd9",
+      "topicIds": [
+        "329fc8ac-062a-411e-9562-ccca9de32093",
+        "30bd3c43-d3e4-4294-b0ee-71279abaa588",
+        "M1t_XsepOno"
+      ],
+      "result": "FORGOT",
+      "reviewedAt": "2026-11-03T15:23:03.702Z"
+    },
+    {
+      "id": "UVX1Ad9iZGs",
+      "sessionId": "LUTULiESGGU",
+      "questionId": "Da2wwQXx1oU",
+      "subjectId": "56082172-0cdd-4026-a77c-fb293a7e1cd9",
+      "topicIds": [
+        "329fc8ac-062a-411e-9562-ccca9de32093",
+        "30bd3c43-d3e4-4294-b0ee-71279abaa588",
+        "M1t_XsepOno"
+      ],
+      "result": "REMEMBERED",
+      "reviewedAt": "2026-11-04T10:07:15.729Z"
+    },
+    {
+      "id": "zbvDiSdQaDI",
+      "sessionId": "LUTULiESGGU",
+      "questionId": "056d87b4-637c-4122-9004-d668ddeea447",
+      "subjectId": "56082172-0cdd-4026-a77c-fb293a7e1cd9",
+      "topicIds": [
+        "329fc8ac-062a-411e-9562-ccca9de32093",
+        "30bd3c43-d3e4-4294-b0ee-71279abaa588"
+      ],
+      "result": "REMEMBERED",
+      "reviewedAt": "2026-11-04T10:07:17.109Z"
+    },
+    {
+      "id": "9NZPMM0qlOs",
+      "sessionId": "LUTULiESGGU",
+      "questionId": "l4iTn7rGMvY",
+      "subjectId": "56082172-0cdd-4026-a77c-fb293a7e1cd9",
+      "topicIds": ["329fc8ac-062a-411e-9562-ccca9de32093"],
+      "result": "REMEMBERED",
+      "reviewedAt": "2026-11-04T10:07:19.392Z"
+    },
+    {
+      "id": "TodUTl3A7m4",
+      "sessionId": "VZyHiNvtV68",
+      "questionId": "70c287ed-e9ca-46c7-97d9-d0da91525403",
+      "subjectId": "99ffe7b5-4181-4eae-8de0-2ba543ca0e17",
+      "topicIds": ["892a0746-90a6-43ba-80b2-234a113c96cd"],
+      "result": "FORGOT",
+      "reviewedAt": "2026-11-04T10:07:51.635Z"
+    },
+    {
+      "id": "iixTcQbbP2o",
+      "sessionId": "VZyHiNvtV68",
+      "questionId": "45fe4230-d028-41e1-9104-e7ed9784ff5e",
+      "subjectId": "99ffe7b5-4181-4eae-8de0-2ba543ca0e17",
+      "topicIds": ["892a0746-90a6-43ba-80b2-234a113c96cd", "5UBrfpO8v6I"],
+      "result": "FORGOT",
+      "reviewedAt": "2026-11-04T10:07:52.900Z"
+    },
+    {
+      "id": "V1CQo8UCl7I",
+      "sessionId": "VZyHiNvtV68",
+      "questionId": "yFyAGwRhQBo",
+      "subjectId": "99ffe7b5-4181-4eae-8de0-2ba543ca0e17",
+      "topicIds": ["892a0746-90a6-43ba-80b2-234a113c96cd", "5UBrfpO8v6I"],
+      "result": "FORGOT",
+      "reviewedAt": "2026-11-04T10:07:54.204Z"
+    },
+    {
+      "id": "ONFEvqy5e9I",
+      "sessionId": "ZPdkxvNg7ZA",
+      "questionId": "056d87b4-637c-4122-9004-d668ddeea447",
+      "subjectId": "56082172-0cdd-4026-a77c-fb293a7e1cd9",
+      "topicIds": [
+        "329fc8ac-062a-411e-9562-ccca9de32093",
+        "30bd3c43-d3e4-4294-b0ee-71279abaa588"
+      ],
+      "result": "REMEMBERED",
+      "reviewedAt": "2026-11-04T10:28:23.361Z"
+    },
+    {
+      "id": "cWKE9GEEDlY",
+      "sessionId": "ZPdkxvNg7ZA",
+      "questionId": "Da2wwQXx1oU",
+      "subjectId": "56082172-0cdd-4026-a77c-fb293a7e1cd9",
+      "topicIds": [
+        "329fc8ac-062a-411e-9562-ccca9de32093",
+        "30bd3c43-d3e4-4294-b0ee-71279abaa588",
+        "M1t_XsepOno"
+      ],
+      "result": "REMEMBERED",
+      "reviewedAt": "2026-11-04T10:28:24.946Z"
+    },
+    {
+      "id": "aAF0a3nHbL0",
+      "sessionId": "ZPdkxvNg7ZA",
+      "questionId": "l4iTn7rGMvY",
+      "subjectId": "56082172-0cdd-4026-a77c-fb293a7e1cd9",
+      "topicIds": ["329fc8ac-062a-411e-9562-ccca9de32093"],
+      "result": "REMEMBERED",
+      "reviewedAt": "2026-11-04T10:28:26.788Z"
+    }
+  ],
+  "quizAttemps": [],
+  "$schema": "./node_modules/json-server/schema.json"
+}
