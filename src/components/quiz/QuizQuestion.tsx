@@ -4,11 +4,13 @@ import type { IQuizResponse, ScoredQuestion } from "../../types/quiz";
 interface QuizQuestionProps {
   question: ScoredQuestion;
   response: IQuizResponse;
+  disabled?: boolean;
   onAnswerChange: (response: IQuizResponse) => void;
 }
 const QuizQuestion = ({
   question,
   response,
+  disabled = false,
   onAnswerChange,
 }: QuizQuestionProps) => {
   return (
@@ -17,6 +19,7 @@ const QuizQuestion = ({
 
       {question.type === "SINGLE_CHOICE" && (
         <Radio.Group
+          disabled={disabled}
           value={
             response.type === "SINGLE_CHOICE" ? response.selectedOptionId : null
           }
@@ -40,6 +43,7 @@ const QuizQuestion = ({
 
       {question.type === "MULTIPLE_CHOICE" && (
         <Checkbox.Group
+          disabled={disabled}
           value={
             response.type === "MULTIPLE_CHOICE"
               ? response.selectedOptionIds
@@ -65,6 +69,7 @@ const QuizQuestion = ({
 
       {question.type === "SHORT_ANSWER" && (
         <Input
+          disabled={disabled}
           placeholder="Enter your answer..."
           value={response.type === "SHORT_ANSWER" ? response.answerText : ""}
           onChange={(event) =>

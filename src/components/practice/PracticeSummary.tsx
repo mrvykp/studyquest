@@ -7,6 +7,11 @@ interface PracticeSummaryProps {
   onPracticeAgain: () => void;
   onBackToPractice: () => void;
 }
+/**
+ *
+ * @param param0 tets
+ * @returns
+ */
 
 const PracticeSummary = ({
   summary,

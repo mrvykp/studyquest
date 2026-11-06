@@ -26,6 +26,9 @@ export interface IChoiceOption {
   text: string; // plain text in Phase 2
   isCorrect: boolean;
   points: number; // + for correct selection, 0/- for wrong
+
+  correctPoints?: number;
+  incorrectPoints?: number;
 }
 
 export interface ISingleChoiceQuestion extends IQuestionBase {

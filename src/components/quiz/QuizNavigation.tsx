@@ -4,16 +4,20 @@ interface QuizNavigationProps {
   currentQuestionIndex: number;
   totalQuestions: number;
   answeredQuestionCount: number;
+  submitting: boolean;
   onPrevious: () => void;
   onNext: () => void;
+  onSubmit: () => void;
 }
 
 const QuizNavigation = ({
   currentQuestionIndex,
   totalQuestions,
   answeredQuestionCount,
+  submitting,
   onPrevious,
   onNext,
+  onSubmit,
 }: QuizNavigationProps) => {
   const isFirstQuestion = currentQuestionIndex === 0;
   const isLastQuestion = currentQuestionIndex === totalQuestions - 1;
@@ -32,13 +36,19 @@ const QuizNavigation = ({
       />
 
       <Flex justify="space-between">
-        <Button disabled={isFirstQuestion} onClick={onPrevious}>
+        <Button disabled={isFirstQuestion || submitting} onClick={onPrevious}>
           Previous
         </Button>
 
-        <Button disabled={isLastQuestion} onClick={onNext}>
-          Next
-        </Button>
+        {isLastQuestion ? (
+          <Button type="primary" loading={submitting} onClick={onSubmit}>
+            Submit Quiz
+          </Button>
+        ) : (
+          <Button disabled={isLastQuestion} onClick={onNext}>
+            Next
+          </Button>
+        )}
       </Flex>
 
       {isLastQuestion && (

@@ -49,6 +49,25 @@ interface QuestionModalProps {
 const isChoiceType = (type: QuestionType | undefined) =>
   type === "SINGLE_CHOICE" || type === "MULTIPLE_CHOICE";
 
+const resolveChoicePoints = (option: IChoiceOption) => {
+  const correctPoints =
+    option.correctPoints ??
+    (option.isCorrect && option.points > 0
+      ? option.points
+      : DEFAULT_CHOICE_CORRECT_POINTS);
+
+  const incorrectPoints =
+    option.incorrectPoints ??
+    (!option.isCorrect && option.points <= 0
+      ? option.points
+      : DEFAULT_CHOICE_INCORRECT_POINTS);
+
+  return {
+    correctPoints,
+    incorrectPoints,
+  };
+};
+
 const QuestionModal = ({
   open,
   loading,
@@ -67,39 +86,40 @@ const QuestionModal = ({
 
   const applyTypeChange = (newType: QuestionType) => {
     if (isChoiceType(selectedType) && isChoiceType(newType)) {
-      if (newType === "SINGLE_CHOICE") {
-        const currentOptions = (form.getFieldValue("options") ??
-          []) as IChoiceOption[];
+      const currentOptions = (form.getFieldValue("options") ??
+        []) as IChoiceOption[];
 
-        const firstCorrectIndex = currentOptions.findIndex(
-          (option) => option.isCorrect,
-        );
+      const firstCorrectIndex = currentOptions.findIndex(
+        (option) => option.isCorrect,
+      );
 
-        const correctIndex = firstCorrectIndex >= 0 ? firstCorrectIndex : 0;
+      const correctIndex = firstCorrectIndex >= 0 ? firstCorrectIndex : 0;
 
-        const updatedOptions = currentOptions.map((option, index) => {
-          const isCorrect = index === correctIndex;
+      const updatedOptions = currentOptions.map((option, index) => {
+        const isCorrect =
+          newType === "SINGLE_CHOICE"
+            ? index === correctIndex
+            : option.isCorrect;
 
-          return {
-            ...option,
-            isCorrect,
-            points: isCorrect
-              ? option.points > 0
-                ? option.points
-                : DEFAULT_CHOICE_CORRECT_POINTS
-              : option.points <= 0
-                ? option.points
-                : DEFAULT_CHOICE_INCORRECT_POINTS,
-          };
-        });
+        const { correctPoints, incorrectPoints } = resolveChoicePoints(option);
 
-        form.setFieldValue("options", updatedOptions);
-      }
+        return {
+          ...option,
+          isCorrect,
+          correctPoints,
+          incorrectPoints,
 
+          // Keep the legacy field synchronized for now.
+          points: isCorrect ? correctPoints : incorrectPoints,
+        };
+      });
+
+      form.setFieldValue("options", updatedOptions);
       form.setFieldValue("type", newType);
 
       setPreviewValues(null);
       setShowAnswer(false);
+
       return;
     }
 
@@ -120,12 +140,16 @@ const QuestionModal = ({
           id: uuidv4(),
           text: "",
           isCorrect: true,
+          correctPoints: DEFAULT_CHOICE_CORRECT_POINTS,
+          incorrectPoints: DEFAULT_CHOICE_INCORRECT_POINTS,
           points: DEFAULT_CHOICE_CORRECT_POINTS,
         },
         {
           id: uuidv4(),
           text: "",
           isCorrect: false,
+          correctPoints: DEFAULT_CHOICE_CORRECT_POINTS,
+          incorrectPoints: DEFAULT_CHOICE_INCORRECT_POINTS,
           points: DEFAULT_CHOICE_INCORRECT_POINTS,
         },
       ]);

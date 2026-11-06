@@ -1,4 +1,5 @@
 import type {
+  IQuizGradingSummary,
   IQuizQuestionResult,
   IQuizResponse,
   QuizQuestionStatus,
@@ -94,3 +95,51 @@ const gradeQuizQuestion = (
 };
 
 // Grade the entire quiz
+export const gradeQuiz = (
+  questions: ScoredQuestion[],
+  responses: IQuizResponse[],
+): IQuizGradingSummary => {
+  if (questions.length === 0) {
+    throw new Error("Cannot grade an empty quiz");
+  }
+
+  const questionIds = new Set(questions.map((question) => question.id));
+
+  if (questionIds.size !== questions.length) {
+    throw new Error("Quiz contains duplicate questions");
+  }
+
+  const responsesByQuestionId = new Map<string, IQuizResponse>();
+
+  for (const response of responses) {
+    if (!questionIds.has(response.questionId)) {
+      throw new Error("Response contains an unknown question");
+    }
+    if (responsesByQuestionId.has(response.questionId)) {
+      throw new Error("Duplicate response for one question");
+    }
+    responsesByQuestionId.set(response.questionId, response);
+  }
+
+  const results = questions.map((question) =>
+    gradeQuizQuestion(question, responsesByQuestionId.get(question.id)),
+  );
+
+  const totalPoints = results.reduce(
+    (total, result) => total + result.awardedPoints,
+    0,
+  );
+
+  const maxPossiblePoints = results.reduce(
+    (total, result) => total + result.maxPossiblePoints,
+    0,
+  );
+
+  const correctQuestionCount = results.filter(
+    (result) => result.status === "CORRECT",
+  ).length;
+
+  const accuracyPercent = (correctQuestionCount / questions.length) * 100;
+
+  return { results, totalPoints, maxPossiblePoints, accuracyPercent };
+};
